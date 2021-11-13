@@ -67,3 +67,16 @@ table .btn-link {
 #ActionMenus {
     margin-left: 10px;
 }
+
+#ActionMenus_MoreOptions button.custom-action:not(:disabled):not(.disabled)
+{
+    color: #566b8d !important;
+    background-color: transparent !important;
+    border-color: #566b8d !important;
+}
+#ActionMenus_MoreOptions button.custom-action:not(:disabled):not(.disabled):hover
+{
+    color: #566b8d !important;
+    background-color: #ebeef2 !important;
+    border-color: #ebeef2 !important;
+}
